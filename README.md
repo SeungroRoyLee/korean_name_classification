@@ -26,11 +26,17 @@ We prepared our sample data by combining common first and last names for both Ko
 
 ## Description
 
+Components:
 1. sample_with_numbers.py - Sample names from csv files
     * 200,000 rows of Non-Korean Names
     * 27,710 rows of Korean Names
 2. nc.py - Python file to train model from a csv file
 3. load_model.py - Python file to load trained model and test names
+
+Model:
+1. LSTM (3 layers, 32*32*2)
+2. Dropout = 0.15
+3. Loss function = Binary cross entropy
 
 
 ## Future Directions
