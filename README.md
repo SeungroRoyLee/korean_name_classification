@@ -36,7 +36,8 @@ Components:
 Model:
 1. LSTM (3 layers, 32x32x2)
 2. Dropout = 0.15
-3. Loss function = Binary cross entropy
+3. Epoch = 15
+4. Loss function = Binary cross entropy
 
 
 ## Future Directions
