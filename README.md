@@ -34,7 +34,7 @@ Components:
 3. load_model.py - Python file to load trained model and test names
 
 Model:
-1. LSTM (3 layers, 32*32*2)
+1. LSTM (3 layers, 32x32x2)
 2. Dropout = 0.15
 3. Loss function = Binary cross entropy
 
