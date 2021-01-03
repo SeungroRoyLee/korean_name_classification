@@ -14,6 +14,7 @@ We prepared our sample data by combining common first and last names for both Ko
 * [Korean First Name](https://en.wikipedia.org/wiki/List_of_the_most_popular_given_names_in_South_Korea) - Wikipedia ("List of the most popular given names in South Korea")
 * [English Last Name](https://rometools.github.io/rome/) 
 * [English First Name](https://rometools.github.io/rome/) 
+* [Korean Name](https://www.wetax.go.kr/main/)
 
 
 ### GitHub Repo Reference
@@ -30,7 +31,7 @@ Components:
 1. sample_with_numbers.py - Sample names from csv files
     * 200,000 rows of Non-Korean Names
     * 27,710 rows of Korean Names
-2. nc.py - Python file to train model from a csv file
+2. name_classification.py - Python file to train model from a csv file
 3. load_model.py - Python file to load trained model and test names
 
 Model:
@@ -58,3 +59,7 @@ Model:
 
 ## Load Model and Results:
 <img src="/img/load_model.png" width="60%" height="50%">
+
+
+Issues:
+python 3.9 and numpy 1.19.4 => pip install numpy==1.19.3
